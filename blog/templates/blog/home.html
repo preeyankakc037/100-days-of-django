@@ -1,26 +1,22 @@
 <!-- blog/templates/blog/home.html -->
 
-{% extends 'blog/base.html'%}
+{% extends 'blog/base.html' %}   
+<!-- inherit the features from base.html -->
 
+{% block title %}Ray's Blog{% endblock %}
 
-{%block title%}Ray's Blog{%endblock%}
-
-{%block content %}
-
-<div class="post">
-    <h2 class="post-title">Designing with purpose</h2>
-    <div class="meta-data">Publish on July 23rd, 2025 by Ray</div>
-    <div class="post-content">
-        <p>I started blogging to document my journey in AI and Software Development.</p>
-    </div>
-</div>
-
-<div class="post">
-    <h2 class="post-title">Creating Cool Projects with Django </h2>
-    <div class="meta-data">Publish on July 23rd, 2025 by Ray</div>
-    <div class="post-content">
-        <p>In this blog I'll document of learning Django for 100 days straight mastering it.</p>
-    </div>
-</div>
-
-{%endblock%}
+{% block content %}
+    {% if posts %}
+        {% for post in posts %}
+            <div class="post">
+                <h2 class="post-title">{{ post.title }}</h2>
+                  <p>Published on {{ post.created_at|date:"F j, Y, g:i a" }} </p>
+                <div class="post-content">
+                    <p>{{ post.description }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No blog posts found.</p>
+    {% endif %}
+{% endblock %}

@@ -3,17 +3,19 @@
 
 <head>
     {% load static %}
+    <!-- {% load static %}  : This loads django static templates files system that you can use {% static 'path/to/file' %} to inculde static assests like CSS JS or images.-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Ray Blog{% endblock %}</title>
 
-    <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/style.css' %}"> 
+    <!-- blog/style.css is linked here -->
 </head>
 
 <body>
     <!-- section One -->
     <nav class="nav">
-        <div class="logo">NEXTBLOG</div>
+        <!-- <div class="logo">NEXTBLOG</div> -->
         <div class="searchBar">
         <i class="fa-thin fa-magnifying-glass"></i>
             

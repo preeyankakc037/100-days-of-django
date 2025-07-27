@@ -1,7 +1,7 @@
 from django.urls import path
-from . import views
+from . import view
 
 urlpatterns = [
-    path('', views.home, name='home'),
+ path('', view.post_list, name='home'),  # use post_list as the home page
     
 ]

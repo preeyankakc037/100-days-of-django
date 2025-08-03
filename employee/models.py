@@ -17,4 +17,6 @@ class Employee(models.Model):
 # Blank = True makes a field Optional
     created_at= models.DateTimeField(auto_now_add=True)
     updated_at=models.DateTimeField(auto_now=True)
-    
+     
+    def __str__(self):    
+       return self.first_name

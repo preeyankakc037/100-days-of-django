@@ -1,94 +1,82 @@
-# 🚀 100 Days of Django
+# 100 Days of Django
 
-> 🔥 A personal challenge to master Django in 100 Days — from zero to deployment, one commit at a time.
-
----
-
-## 🎯 Why I'm Doing This
-
-I’m on a mission to become an unstoppable **Full-Stack Developer**. Django isn't just a framework — it’s a gateway to building real-world, scalable applications. This challenge is my way of staying consistent, pushing boundaries, and sharing my journey publicly.
-
-> 🧠 *"Discipline is the bridge between goals and accomplishment." — Jim Rohn*
+A personal journey to master Django from scratch to deployment, in 100 focused days.
 
 ---
 
-## 📅 Challenge Timeline
+## About
 
-**Start Date:** `July 23, 2025`  
-**End Date:** `October 30, 2025`  
-**Daily Time Commitment:** Minimum **1 hour/day**  
-**Tech Stack:** Django, Python, PostgreSQL, HTML/CSS, JS (later), Git & GitHub
+I'm learning Django to become a solid full-stack web developer. This repository documents my day-by-day progress through building real-world projects, refining concepts, and understanding Django's full ecosystem — including models, views, templates, admin, APIs, and deployment.
 
 ---
 
-## 🛠️ What to Expect
+## Timeline
 
-Each day includes:
-- 📓 A new concept or feature in Django
-- 🧪 Hands-on code (committed to GitHub)
-- 📷 Screenshots or demo links (as projects get built)
-- 🧠 Learnings + reflections in `notes.md`
-- 🚧 Mini projects and real-world applications
+- **Start Date:** July 23, 2025  
+- **End Date:** October 30, 2025  
+- **Daily Commitment:** 1 hour minimum  
+- **Tech Stack:** Django, Python, PostgreSQL, HTML/CSS, JS, Git
 
 ---
 
-## ✅ Progress Log
+## Daily Log
 
-| Day | Focus | Status |
-|-----|-------|--------|
-| 01  | Project Setup + Git + First App | ✅ Completed |
-| 02  | Django Templates & Static Files | 🔄 In Progress |
-| 03  | Models and Migrations | ⏳ Coming |
-| ... | ... | ... |
-| 100 | Final Project Deployment | ⏳ Coming |
-
-> 📌 *Track daily progress right here — updated every day!*
-
----
-
-## 🌟 Milestones
-
-- [ ] 10 Days: Solid grasp of Django basics
-- [ ] 30 Days: CRUD operations & Admin mastery
-- [ ] 50 Days: REST APIs with Django REST Framework
-- [ ] 70 Days: Authentication & User Management
-- [ ] 90 Days: Full-stack project ready
-- [ ] 100 Days: 🥳 Deployed project live + blog post
+| Day | Topic                                | Status        |
+|-----|--------------------------------------|---------------|
+| 01  | Django Project Setup + First App     | ✅ Completed  |
+| 02  | Templates, Static Files              | ✅ Completed  |
+| 03  | Models, Migrations                   | ✅ Completed  |
+| 04  | Displaying Blog Posts from DB        | ✅ Completed  |
+| 05  | Bootstrap Integration                | ✅ Completed  |
+| 06  | Django Apps + Admin Panel            | ✅ Completed  |
+| 07  | Django Model Deep Dive               | ✅ Completed  |
+| 08  | Media Files Handling                 | ✅ Completed  |
+| 09  | Fetching DB Data to Frontend         | ✅ Completed  |
+| ... | ...                                  | 🔄 Ongoing    |
+| 100 | Final Project Deployment             | ⏳ Coming     |
 
 ---
 
-## 💻 Projects You'll See Here
+## Projects Along the Way
 
-- A Blog App
-- To-do Manager
+- Blog App
+- To-do App
 - Notes App
-- Portfolio CMS
-- RESTful API for a Task Tracker
-- Final Capstone Project 🎯
+- CMS Portfolio Site
+- RESTful API (Task Tracker)
+- Final Capstone Project
 
 ---
 
-## 📌 Notes
+## Milestones
 
-Every day comes with:
-- `notes.md` — explanations, bugs, gotchas
-- Code snippets and insights
-- What I learned, what broke, and how I fixed it 😄
-
----
-
-## 📬 Want to Connect?
-
-Feel free to reach out, collab, or just say hi:
-- 🐦 [Twitter](https://twitter.com/your-handle)
-- 💼 [LinkedIn](https://linkedin.com/in/your-name)
-- 🌐 [Portfolio](https://ray.dev) *(Coming soon!)*
+- [ ] Day 10 – Django fundamentals mastered  
+- [ ] Day 30 – CRUD + Django Admin  
+- [ ] Day 50 – REST APIs with Django REST Framework  
+- [ ] Day 70 – Authentication + Forms  
+- [ ] Day 90 – Full-stack project complete  
+- [ ] Day 100 – Deployment + writeup  
 
 ---
 
-## ⚡ Let's Go!
+## Folder Structure
 
-💡 *"You don't have to be great to start, but you have to start to be great."*
+Each day has:
+- `notes.md` – Daily learnings
+- `code/` – Project files or features built that day
+- `screenshots/` – Visual snapshots (where relevant)
 
-→ **Star** this repo if you want to follow along or join the challenge!
+---
+
+## Connect
+
+- LinkedIn: [linkedin.com/in/priyanka-khatri07](https://www.linkedin.com/in/priyanka-khatri07/)  
+- Twitter/X: [x.com/preeyanka07](https://x.com/preeyanka07)  
+- Portfolio: Coming soon
+
+---
+
+## License
+
+This project is open for learning and collaboration. Feel free to fork and start your own challenge.
 

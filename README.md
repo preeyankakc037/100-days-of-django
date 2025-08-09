@@ -5,14 +5,14 @@ A 100-day journey to learn Django from scratch to deployment — building real-w
 
 ---
 
-## 📅 Timeline
+## Timeline
 - **Start:** July 23, 2025  
 - **End:** October 30, 2025  
 - **Daily Commitment:** 1+ hour  
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Django  
 - Python  
 - PostgreSQL  
@@ -22,7 +22,7 @@ A 100-day journey to learn Django from scratch to deployment — building real-w
 
 ---
 
-## 📌 Projects
+##  Projects
 - Blog App  
 - To-do App  
 - Notes App  
